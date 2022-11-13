@@ -1,3 +1,60 @@
 This is my first GitHub Class
 this is my second commit
 new remote code
+
+
+
+Pinned by Ahmet Bayram
+
+
+Ahmet Bayram
+  2:22 PM
+GIT DAY 1 NOTES
+
+GITHUB DAY 1:
+FIRST CODE PUSH:
+git init  ->>>> Create a .git folder in our computer
+git add .  ->>>
+git commit -m "first commit" ->>> Create a new version
+git branch -M main ->>> Creating a new branch called main
+git remote add origin YOURPROJECTLINK ->>> Connects Local Project(git) to Remote repository(github)
+git push -u origin main
+=========
+SECOND CODE PUSH:
+git add .
+git commit -m "updating the code"
+git push
+=========
+GIT IGNORE:
+WHAT?
+.gitignore should be created at the project level
+It is used to ignore/hide the files
+The files in .gitignore will not be added and committed and pused
+-----------------------------------
+Example:
+create 3 files : Notes2.txt, Notes3.txt, Notes4.txt
+And Create .gitignore file in the project level
+Then put Notes3.txt path in .gitignore file
+Then commit
+Then push
+Then Notes3.txt should not be pushed in GitHub
+NOTE: MAKE SURE TO SAVE AFTER EACH CHANGE controll+s
+============
+GIT PULL
+: Please, commit your changes before merging.
+git add .
+git commit -m "message"
+git pull -> GOT ERROR Saying pull before push
+git pull
+git add .
+git commit - "message"
+git push -> NO ERROR
+NOTE: GIT PULL before GIT PUSH
+============
+GIT CONFLICT:
+Occurs when same class and line have different code
+When we merge these codes then we get conflict message
+SOLUTION:
+Manually fix and create a new commit and push the clean code
+===========
+
